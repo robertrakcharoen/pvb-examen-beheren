@@ -15,6 +15,11 @@
             <div>
               <h1>Restaurants : </h1><br>
               <table id="example" class="tafel">
+                <thead>
+                  <tr>
+                    <td style="color: white; width: 2px;" class="column1">#</td>
+                  </tr>
+                </thead>
               </table><br>
 
             </div>
