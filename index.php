@@ -9,10 +9,10 @@
     <script src="https://kit.fontawesome.com/9e77f6e4c2.js" crossorigin="anonymous"></script>
   </head>
   <body id="index">
-    <div class="limiter">
-    <div class="container-table100">
-        <div class="wrap-table100">
-            <div class="table100">
+    <div>
+    <div>
+        <div>
+            <div>
               <h1>Restaurants : </h1><br>
 
             </div>
