@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+require('query.php')
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -31,6 +33,7 @@
                 </thead>
 
                 <tbody>
+
                   <?php
                   require('query.php')
                    ?>
