@@ -1,7 +1,7 @@
 <?php
   $servername = "localhost";
-  $username = "rubix03_restaurants";
-  $password = "Lekkerpizz@3";
+  $username = "root";
+  $password = "";
   $dbname = "rubix03_restaurants";
 
 
