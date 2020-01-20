@@ -14,6 +14,8 @@
         <div>
             <div>
               <h1>Restaurants : </h1><br>
+              <table id="example" class="tafel">
+              </table><br>
 
             </div>
       </div>
