@@ -18,6 +18,15 @@
                 <thead>
                   <tr>
                     <td style="color: white; width: 2px;" class="column1">#</td>
+                    <td style="color: white;" class="column5"></td>
+                      <td style="color: white" class="column3">Naam</td>
+                      <td style="color: white" class="column2">Ingevoerd</td>
+                      <td style="color: white" class="column2">Status</td>
+                      <td style="color: white;" class="column2">Opmerking</td>
+                      <td style="color: white" class="column2">Gecontroleerd</td>
+                      <td style="color: white" class="column2">Status</td>
+                      <td style="color: white" class="column2">Opmerking</td>
+                      <td style="color: white" class="column6"></td>
                   </tr>
                 </thead>
               </table><br>
