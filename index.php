@@ -29,6 +29,12 @@
                       <td style="color: white" class="column6"></td>
                   </tr>
                 </thead>
+
+                <tbody>
+                  <?php
+                  require('query.php')
+                   ?>
+                </tbody>
               </table><br>
 
             </div>
