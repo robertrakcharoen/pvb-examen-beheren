@@ -35,7 +35,13 @@ require('query.php')
                 <tbody>
 
                   <?php
-                  require('query.php')
+                  if (isset($_GET['page'])) {
+                        $eind = $_GET['page'] * 100;
+                        $begin = $eind - 99;
+                    } else {
+                        $eind = 100;
+                        $begin = 1;
+                    }
                    ?>
                 </tbody>
               </table><br>
