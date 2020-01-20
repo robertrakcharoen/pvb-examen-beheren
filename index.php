@@ -42,6 +42,8 @@ require('query.php')
                         $eind = 100;
                         $begin = 1;
                     }
+
+                    $sql = "SELECT * FROM `restaurants_info` WHERE id BETWEEN '$begin' AND '$eind'";
                    ?>
                 </tbody>
               </table><br>
