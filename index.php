@@ -59,7 +59,7 @@ require('query.php')
                     <td class='column2'>". $row["Controlle_Door"]. "</td>
                     <td class='column2'>". $row["Status_2"]. "</td>
                     <td title='". $row["Opmerking_2"]. "' class='column2'>". limit_text($row["Opmerking_2"], 4) . "</td>
-                    <td style='width: 5px;' class='column6'><a href='". $row["Nieuw_URL"]."' target='_blank'><i class=\"fas fa-file-image\"></i></a> - <a href='https://demo-eten.nl/". $row["restaurant_url"].".html' target='_blank'><i class=\"fas fa-globe-americas\"></i></a></td>
+                    <td style='width: 5px;' class='column6'><a href='". $row["Nieuw_URL"]."' target='_blank'><i class=\"fas fa-file-image\"></i></a> <a href='https://demo-eten.nl/'></a></td>
               </tr>
 
               "; }
