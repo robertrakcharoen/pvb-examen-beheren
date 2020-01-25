@@ -4,21 +4,38 @@ require('query.php')
 <!DOCTYPE html>
 <html>
   <head>
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Restaurant</title>
+    <title>Restaurants</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- bootstrap css - gebruikt voor responsive maken -->
     <script src="https://kit.fontawesome.com/9e77f6e4c2.js" crossorigin="anonymous"></script>
   </head>
   <body id="index">
-    <div>
-    <div>
-        <div>
-            <div>
+    <div class="limiter">
+    <div class="container-table100">
+        <div class="wrap-table100">
+            <div class="table100">
               <h1>Restaurants : </h1><br>
               <table id="example" class="tafel">
                 <thead>
-                  <tr>
+                  <tr class="table100-head">
                     <td style="color: white; width: 2px;" class="column1">#</td>
                     <td style="color: white;" class="column5"></td>
                       <td style="color: white" class="column3">Naam</td>
