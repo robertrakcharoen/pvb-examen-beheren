@@ -8,7 +8,9 @@ $start_from = ($page-1) * $results_per_page;
 $restaurant = $_GET["page"];
 $sql = "SELECT * FROM restaurants_info WHERE id = "." $restaurant ";
 $result = $conn->query($sql);
+?>
 
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
