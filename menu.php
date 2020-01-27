@@ -61,7 +61,13 @@ while ($row2 = mysqli_fetch_assoc($result2)) {
 
 <nav>
   <ul>
-
+    <li><a class="line" target="_blank" href="http://www.rubix03.nl/etencom">Home</a></li>
+    <li><a class="line" target="_blank" href="http://www.rubix03.nl/etencom">Thuisbezorgd</a></li>
+    <li><a class="line" target="_blank" href="http://www.rubix03.nl/etencom">Eten.nl admin</a></li>
+    <li><a class="line" target="_blank" href="http://www.rubix03.nl/etencom">Home</a></li>
+    <li><a class="line" target="_blank" href="http://www.rubix03.nl/etencom">Create Restaurant</a></li>
+    <li><a class="line" target="_blank" href="<?php echo $url ?>">Ga naar de Website</a></li>
+    <li><a class="line" target="_blank" href="opties.php">Opties</a></li>
   </ul>
 </nav>
 </body>
