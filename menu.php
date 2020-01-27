@@ -25,6 +25,8 @@ $result = $conn->query($sql);
 </head>
 
 <body>
-
+  <?php
+$sql2 = "SELECT * FROM restaurants_info  WHERE id = "." $restaurant  ";
+?>
 </body>
 ?>
