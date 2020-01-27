@@ -37,6 +37,24 @@ while ($row2 = mysqli_fetch_assoc($result2)) {
   $plaats = $row2['plaats'];
   $email = $row2['email_adres'];
   $wachtwoord = $row2['Wachtwoord'];
+
+  /*v --------Openingstijden------- */
+  $maandagO = $row2['Maandag_open'];
+  $dinsdagO = $row2['Dinsdag_open'];
+  $woensdagO = $row2['Woensdag_open'];
+  $donderdagO = $row2['Donderdag_open'];
+  $vrijdagO = $row2['Vrijdag_open'];
+  $zaterdagO = $row2['Zaterdag_open'];
+  $zondagO = $row2['Zondag_open'];
+
+  /*v --------Sluitingsstijden------- */
+  $maandagS = $row2['Maandag_dicht'];
+  $dinsdagS = $row2['Dinsdag_dicht'];
+  $woensdagS = $row2['Woensdag_dicht'];
+  $donderdagS = $row2['Donderdag_dicht'];
+  $vrijdagS = $row2['Vrijdag_dicht'];
+  $zaterdagS = $row2['Zaterdag_dicht'];
+  $zondagS = $row2['Zondag_dicht'];
 }
 
 ?>
