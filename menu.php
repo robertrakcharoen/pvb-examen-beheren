@@ -178,6 +178,8 @@ while ($row2 = mysqli_fetch_assoc($result2)) {
                 if (strpos($opmerking1,"'") !== false) {
                     $opmerking1 = str_replace("'", "\'", $opmerking1);
                 }
+
+                $sql = "UPDATE `restaurants_info` SET `Ingevoerd_door`='$naam',`Status`='$status',`Opmerking`='$opmerking1', `Nieuw_URL`='$nieuw_url',`restaurant_url`='$Restaurant_url' WHERE id='$restaurant'";
               }
                ?>
             </div>
