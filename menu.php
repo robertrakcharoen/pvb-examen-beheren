@@ -168,6 +168,11 @@ while ($row2 = mysqli_fetch_assoc($result2)) {
               <button onclick="copyToClipboard('#A-K')">Copy</button> Letter: <span id="A-K">abcdefghijk</span><br> <br>
               <button onclick="copyToClipboard('#BIC')">Copy</button> BIC: <span id="BIC">INGBNL2A</span><br> <br>
               <button onclick="copyToClipboard('#IBAN')">Copy</button> IBAN: <span id="IBAN">GB33BUKB20201555555555</span><br> <br>
+              <?php
+              if (!empty($_POST['naam'] && $_POST['status'])) {
+                
+              }
+               ?>
             </div>
           </div>
         </div>
