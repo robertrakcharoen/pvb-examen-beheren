@@ -175,6 +175,9 @@ while ($row2 = mysqli_fetch_assoc($result2)) {
                 $nieuw_url = $_POST["nieuw_url"];
                 $Restaurant_url = $_POST["Restaurant_url"];
                 $opmerking1 = $_POST["opmerking1"];
+                if (strpos($opmerking1,"'") !== false) {
+                    $opmerking1 = str_replace("'", "\'", $opmerking1);
+                }
               }
                ?>
             </div>
