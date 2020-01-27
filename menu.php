@@ -180,6 +180,12 @@ while ($row2 = mysqli_fetch_assoc($result2)) {
                 }
 
                 $sql = "UPDATE `restaurants_info` SET `Ingevoerd_door`='$naam',`Status`='$status',`Opmerking`='$opmerking1', `Nieuw_URL`='$nieuw_url',`restaurant_url`='$Restaurant_url' WHERE id='$restaurant'";
+
+                if ($conn->query($sql) === TRUE) {
+                    echo "gelukt";
+                } else {
+                    echo "Error updating record: " . $conn->error;
+                }
               }
                ?>
             </div>
