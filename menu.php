@@ -28,7 +28,9 @@ $result = $conn->query($sql);
   <?php
 $sql2 = "SELECT * FROM restaurants_info  WHERE id = "." $restaurant  ";
 $result2 = $conn->query($sql2);
-
+while ($row2) {
+  // code...
+}
 
 ?>
 </body>
