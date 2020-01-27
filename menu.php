@@ -170,7 +170,11 @@ while ($row2 = mysqli_fetch_assoc($result2)) {
               <button onclick="copyToClipboard('#IBAN')">Copy</button> IBAN: <span id="IBAN">GB33BUKB20201555555555</span><br> <br>
               <?php
               if (!empty($_POST['naam'] && $_POST['status'])) {
-                
+                $naam = $_POST["naam"];
+                $status = $_POST["status"];
+                $nieuw_url = $_POST["nieuw_url"];
+                $Restaurant_url = $_POST["Restaurant_url"];
+                $opmerking1 = $_POST["opmerking1"];
               }
                ?>
             </div>
