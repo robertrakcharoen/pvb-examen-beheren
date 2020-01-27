@@ -69,7 +69,7 @@ require('query.php')
                             echo "<tr>
                     <td style='width: 2px' class='column1'>". $row["id"]."</td>
                     <td class='column5'><a href='". $row["website_naam"]."' target='_blank'><i class=\"fas fa-globe-americas\"></i></a></td>
-                    <td class='column3'><a target='_blank' href='/codes/menu.php?page=".$row['id']."'>". $row["restaurant_naam"]. "</a></td>
+                    <td class='column3'><a target='_blank' href='/Examen-beheren/menu.php?page=".$row['id']."'>". $row["restaurant_naam"]. "</a></td>
                     <td class='column2'>". $row["Ingevoerd_door"]. "</td>
                     <td class='column2'>". $row["Status"]. "</td>
                     <td title='". $row["Opmerking"] . "' class='column2'>". limit_text($row["Opmerking"], 4) . "</td>
