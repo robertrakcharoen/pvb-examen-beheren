@@ -187,6 +187,7 @@ while ($row2 = mysqli_fetch_assoc($result2)) {
                     echo "Error updating record: " . $conn->error;
                 }
               }
+              $conn->close();
                ?>
             </div>
           </div>
