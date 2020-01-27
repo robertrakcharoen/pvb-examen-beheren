@@ -28,8 +28,8 @@ $result = $conn->query($sql);
   <?php
 $sql2 = "SELECT * FROM restaurants_info  WHERE id = "." $restaurant  ";
 $result2 = $conn->query($sql2);
-while ($row2) {
-  // code...
+while ($row2 = mysqli_fetch_assoc($result2)) {
+  $id = $row['id'];
 }
 
 ?>
