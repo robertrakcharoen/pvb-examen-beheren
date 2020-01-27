@@ -30,6 +30,13 @@ $sql2 = "SELECT * FROM restaurants_info  WHERE id = "." $restaurant  ";
 $result2 = $conn->query($sql2);
 while ($row2 = mysqli_fetch_assoc($result2)) {
   $id = $row['id'];
+  $url = $row2['website_naam'];
+  $rest_titel = $row2['restaurant_naam'];
+  $straat = $row2['straat'];
+  $postcode = $row2['postcode'];
+  $plaats = $row2['plaats'];
+  $email = $row2['email_adres'];
+  $wachtwoord = $row2['Wachtwoord'];
 }
 
 ?>
